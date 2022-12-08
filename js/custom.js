@@ -68,3 +68,26 @@ $(".client_owl-carousel").owlCarousel({
         }
     }
 });
+
+$(function() {
+    $('li').on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({
+        scrollTop: $($(e.target).attr("href")).offset().top
+      }, 500);
+    });
+  }
+);
+
+function loader(){
+    document.querySelector('.loader-container').classList.add('fade-out');
+  }
+  
+  function fadeOut(){
+    setInterval(loader, 3000);
+  }
+  
+  window.onload = fadeOut;
+
+
+  

@@ -90,6 +90,31 @@ a:focus {
 }
 
 /*header section*/
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+
+.logo {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.logo a {
+  max-height: 40px;
+  max-width: 100%;
+  height: auto;
+}
+
 .hero_area {
   position: relative;
   min-height: 100vh;
@@ -139,7 +164,7 @@ a:focus {
 }
 
 .header_section {
-  padding: 15px 0;
+  background-color: #00000082;
 }
 
 .header_section .container-fluid {
@@ -1003,5 +1028,27 @@ a:focus {
 
 .footer_section .footer-info p a {
   color: inherit;
+}
+
+.loader-container{
+  position: fixed;
+  top:0; left:0;
+  height:100%; 
+  width:100%;
+  z-index: 10000;
+  background:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.loader-container img{
+  width:35rem;
+}
+
+.loader-container.fade-out{
+  top:-110%;
+  opacity:0;
 }
 /*# sourceMappingURL=style.css.map */
