@@ -1,0 +1,133 @@
+
+       body{
+        background:url("../images/hero-bg.jpg");
+        font-weight: 300;
+       }
+
+       .height{
+        height: 100vh;
+       }
+
+       .card{
+        padding: 20px;
+        color: #fff;
+        margin-top: 5rem;
+        backdrop-filter: blur(13px) saturate(124%);
+        -webkit-backdrop-filter: blur(13px) saturate(124%);
+        background-color: rgba(170, 170, 170, 32%);
+        border-radius: 12px;
+        border: 1px solid rgba(209, 213, 219, 0.3);
+
+       }
+       .card h5 {
+        color: white ;
+        font-size: larger;
+        font-weight: 900;
+       }
+
+       .card h1 {
+        color: white ;
+        font-weight: 900;
+        text-align: center;
+        padding-bottom: 20px;
+       }
+
+       .btn-primary {
+        color: white !important;
+        background-color: orange !important;
+        border-color: orange !important;
+       }
+       .btn-primary:hover{
+        color: white !important;
+        background-color: rgb(196, 128, 3) !important;
+        border-color: orange !important;
+       }
+
+       .circle{
+
+        height: 20px;
+        width: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:orange;
+        color: #fff;
+        font-size: 10px;
+        border-radius: 50%;
+       }
+
+       .form-input{
+
+        position: relative;
+        margin-bottom: 10px;
+        margin-top: 10px;
+       }
+
+       .form-input i{
+
+            position: absolute;
+            font-size: 18px;
+            top: 15px;
+            left: 10px;
+       }
+
+       .form-control{
+
+        height: 50px;
+        background-color: #1c1e21;
+        text-indent: 24px;
+        font-size: 15px;
+
+
+       }
+
+       .form-control:focus{
+
+        background-color: #25272a;
+        box-shadow: none;
+        color: #fff;
+        border-color: orange;
+       }
+
+       .form-check-label{
+        margin-top: 2px;
+        font-size: 14px;
+       }
+
+        .signup{
+          height: 50px;
+          font-size: 14px;
+        }
+
+        .social{
+
+          height: 50px;
+          width: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid #eee;
+          border-radius: 50%;
+          margin-right: 10px; 
+          cursor: pointer;
+        }
+
+        .social:hover{
+
+          background-color: orange;
+          border-color: orange;
+
+        }
+
+        .login {
+            color: orange;
+            padding: 15px;
+            font-weight: 900;
+            font-size: larger;
+        }
+
+        .login:hover {
+            color: rgb(158, 103, 0);
+            font-size: larger;
+            font-weight: 900;
+        }
